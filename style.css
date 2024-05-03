@@ -1,0 +1,88 @@
+body{
+    background: #202020;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #8d8a8a;
+    border-radius: 10px;
+    min-height: 460px;
+    min-width: 300px;
+}
+
+.profile img{
+    border-radius: 100%;
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.name h2{
+    color: #050505;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+}
+
+.loc p{
+    text-align: center;
+    color: rgb(13, 58, 66);
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -20px;
+}
+
+.desc p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+}
+
+.buttons{
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons a{
+    text-decoration: none;
+}
+
+.buttons button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    min-width: 270px;
+    min-height: 40px;
+    border-radius: 10px;
+    background: #4b4b4b;
+    font-size: 17px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.buttons p{
+    margin: auto;
+}
+
+.buttons button:hover{
+    box-shadow: 0 2px #3f3e3ed8;
+    background:  #292929;
+}
+
+.attribution{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
